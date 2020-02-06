@@ -1,5 +1,4 @@
 import 'package:flutter_web/material.dart';
-
 import 'package:website/models/github_model.dart';
 
 Widget tableCard(BuildContext context, List<GithubTrendingModel> data) {
@@ -15,17 +14,18 @@ Widget tableCard(BuildContext context, List<GithubTrendingModel> data) {
             border: Border(bottom: BorderSide(width: 1, color: Colors.grey))),
         child: Table(
           columnWidths: <int, TableColumnWidth>{
-            0: FixedColumnWidth((MediaQuery.of(context).size.width / 5)),
-            1: FixedColumnWidth((MediaQuery.of(context).size.width / 5)),
-            2: FixedColumnWidth((MediaQuery.of(context).size.width / 5)),
-            3: FixedColumnWidth((MediaQuery.of(context).size.width / 5)),
+            0: FixedColumnWidth((MediaQuery.of(context).size.width / 6)),
+            1: FixedColumnWidth((MediaQuery.of(context).size.width / 6)),
+            2: FixedColumnWidth((MediaQuery.of(context).size.width / 6)),
+            3: FixedColumnWidth((MediaQuery.of(context).size.width / 6)),
+            4: FixedColumnWidth((MediaQuery.of(context).size.width / 6)),
           },
           children: [
             TableRow(decoration: BoxDecoration(), children: [
               Container(
                 padding: EdgeInsets.all(18),
                 child: Text(
-                  "No.",
+                  "Type",
                   style: TextStyle(
                     fontSize: 18,
                     color: Colors.black,
@@ -37,7 +37,7 @@ Widget tableCard(BuildContext context, List<GithubTrendingModel> data) {
               Container(
                 padding: EdgeInsets.all(18),
                 child: Text(
-                  "Author Name",
+                  "Intervention",
                   style: TextStyle(
                     fontSize: 18,
                     color: Colors.black,
@@ -49,7 +49,7 @@ Widget tableCard(BuildContext context, List<GithubTrendingModel> data) {
               Container(
                 padding: EdgeInsets.all(18),
                 child: Text(
-                  "Language",
+                  "Situation",
                   style: TextStyle(
                     fontSize: 18,
                     color: Colors.black,
@@ -61,7 +61,19 @@ Widget tableCard(BuildContext context, List<GithubTrendingModel> data) {
               Container(
                 padding: EdgeInsets.all(18),
                 child: Text(
-                  "Stars",
+                  "Commentaires",
+                  style: TextStyle(
+                    fontSize: 18,
+                    color: Colors.black,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'HelveticaNeue',
+                  ),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(18),
+                child: Text(
+                  "statut",
                   style: TextStyle(
                     fontSize: 18,
                     color: Colors.black,

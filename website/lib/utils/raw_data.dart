@@ -3,21 +3,21 @@ import 'package:flutter_web/material.dart';
 List<MaterialColor> colors = [
   Colors.pink,
   Colors.amber,
+  Colors.blue,
   Colors.teal,
-  Colors.lightBlue,
 ];
 List<String> newTexts = [
-  "New Tickets!",
-  "New task!",
-  "New Orders!",
-  "New Tickets!"
+  "Espaces communs",
+  "Mes espaces privés",
+  "En cours",
+  "Traités"
 ];
 List<String> randomNumbers = ["13", "12", "124", "13", "14"];
 List<IconData> icons = [
-  Icons.menu,
+  Icons.location_city,
   Icons.track_changes,
-  Icons.shopping_cart,
-  Icons.question_answer
+  Icons.access_alarms,
+  Icons.done_all
 ];
 List<String> elementsName = [
   "Hydrogen",

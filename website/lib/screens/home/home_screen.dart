@@ -42,7 +42,7 @@ class HomeScreenState extends State<HomeScreen>
               Container(
                 margin: EdgeInsets.only(left: 32),
                 child: Text(
-                  "Admin Material",
+                  "Interventions",
                   style: TextStyle(
                     fontSize: 24,
                     color: Colors.white,
@@ -60,36 +60,36 @@ class HomeScreenState extends State<HomeScreen>
             child: Container(
               margin: EdgeInsets.all(12),
               padding: EdgeInsets.all(8),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(5),
-                color: Colors.white,
-              ),
+//              decoration: BoxDecoration(
+//                borderRadius: BorderRadius.circular(5),
+//                color: Colors.white,
+//              ),
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: <Widget>[
-                  Icon(
-                    Icons.cloud_download,
-                    color: Colors.black,
-                    size: 22,
-                  ),
-                  SizedBox(
-                    width: 4,
-                  ),
-                  Text(
-                    "Download Now",
-                    style: TextStyle(
-                      fontSize: 12,
-                      color: Colors.black,
-                      fontFamily: 'HelveticaNeue',
-                    ),
-                  ),
+//                  Icon(
+//                    Icons.cloud_download,
+//                    color: Colors.black,
+//                    size: 22,
+//                  ),
+//                  SizedBox(
+//                    width: 4,
+//                  ),
+//                  Text(
+//                    "Download Now",
+//                    style: TextStyle(
+//                      fontSize: 12,
+//                      color: Colors.black,
+//                      fontFamily: 'HelveticaNeue',
+//                    ),
+//                  ),
                 ],
               ),
             ),
           ),
           SizedBox(width: 32),
-          Container(child: Icon(Icons.web)),
-          SizedBox(width: 32),
+//          Container(child: Icon(Icons.web)),
+//          SizedBox(width: 32),
           Container(child: Icon(Icons.account_circle)),
           SizedBox(width: 32),
           Container(
@@ -189,7 +189,7 @@ class HomeScreenState extends State<HomeScreen>
                   width: 8,
                 ),
                 Text(
-                  "Forms",
+                  "Formulaire",
                   style: TextStyle(
                     fontSize: 18,
                     fontFamily: 'HelveticaNeue',
@@ -215,7 +215,7 @@ class HomeScreenState extends State<HomeScreen>
                   width: 8,
                 ),
                 Text(
-                  "Hero",
+                  "Mes données",
                   style: TextStyle(
                     fontSize: 18,
                     fontFamily: 'HelveticaNeue',

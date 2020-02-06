@@ -22,15 +22,15 @@ Widget tickets(Color color, BuildContext context, IconData icon,
                 size: 36,
                 color: Colors.white,
               ),
-              Text(
-                "View Details",
-                style: TextStyle(
-                  fontSize: 18,
-                  color: Colors.white,
-                  // fontWeight: FontWeight.bold,
-                  fontFamily: 'HelveticaNeue',
-                ),
-              )
+//              Text(
+//                "Espaces communs",
+//                style: TextStyle(
+//                  fontSize: 18,
+//                  color: Colors.white,
+//                  // fontWeight: FontWeight.bold,
+//                  fontFamily: 'HelveticaNeue',
+//                ),
+//              )
             ],
           ),
           Column(
